@@ -11,7 +11,7 @@ test('reverse single letter is just the letter', () => {
 });
 
 test('reverse sentence should reverse it', () => {
-  expect(reverse.reverseSentence('this is a sentence'), true, false)
+  expect(reverse.reverseSentence('this is a sentence', true, false))
     .toBe('sentence a is this')
 });
 
@@ -21,6 +21,6 @@ test('reverse the letters should reverse their letters', () => {
 });
 
 test('reverse both should do everything', () => {
-  expect(reverse.reverseSentence('this is a sentence'), true, true)
+  expect(reverse.reverseSentence('this is a sentence', true, true))
     .toBe('ecnetnes a si siht')
 });
