@@ -6,12 +6,13 @@ This is a simple coding challenge to be written in Typescript - Node JS
 
 Write the logic for the reverseSentence function in src/reverse.ts. Create a command line app that uses the function.
 
-    npm start "please reverse this sentence" --word --letter
+    npm start -- "please reverse this sentence" --word --letter
 
     where
 
-    --word - reverse the order of the words
-    --letter - reverse the order of the letters within each word
+    "--" - separates npm args from your node args
+    "--word" - reverse the order of the words
+    "--letter" - reverse the order of the letters within each word
 
 ### Specification
 
@@ -35,4 +36,4 @@ before running the application, make sure to build
 
 to run the application
 
-    npm start "please reverse this sentence"
+    npm start -- "please reverse this sentence"
