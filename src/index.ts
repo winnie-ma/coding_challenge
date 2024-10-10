@@ -25,6 +25,6 @@ if (!sentence) {
 }
 
 
-// Call reverseSentence and print the result
-// const result = reverseSentence(sentence, isReverseWords, isReverseLetters);
-// console.log(result);
+//Call reverseSentence and print the result
+const result = reverseSentence(sentence, isReverseWords, isReverseLetters);
+console.log(result);
